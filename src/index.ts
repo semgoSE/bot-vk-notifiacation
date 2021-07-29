@@ -14,7 +14,7 @@ const date_options: Intl.DateTimeFormatOptions = {
 };
 
 
-const bot: VkBot = new VkBot("6448add9b4da9f4038c9c423bcd1a4588f5e592e854a153711216e7cdfb54534800921bab71f962ab32bb");
+const bot: VkBot = new VkBot("твой токен группы");
 console.log("Бот запущен");
 
 cron.schedule('* * * * *', () => {
